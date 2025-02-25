@@ -1,3 +1,78 @@
+# Takbis - Tapu Kayıt Belgeleri Analiz ve Raporlama Yazılımı
+
+Bu yazılım, tapu kayıt belgelerini (Takbis) otomatik olarak analiz eden, veritabanına kaydeden ve çeşitli formatlarda raporlar oluşturan bir araçtır. Gayrimenkul değerleme uzmanları için geliştirilmiştir.
+
+## Özellikler
+
+- 📄 Tapu belgelerini (PDF) otomatik analiz etme
+- 💾 Verileri SQLite veritabanında saklama
+- 📊 İpotek ve takyidat bilgilerini çıkarma
+- 📝 Detaylı takyidat raporları oluşturma
+- 📑 Çoklu taşınmaz analizi ve karşılaştırmalı raporlama
+- 📈 Hisse tablosu Excel formatında dışa aktarma
+
+## Kurulum
+
+### Gereksinimler
+
+- Python 3.7+
+- PyQt5
+- pdfplumber
+- PyMuPDF (fitz)
+- openpyxl
+- sqlite3
+
+### Kurulum Adımları
+
+```bash
+# Repoyu klonlayın
+git clone https://github.com/kullaniciadi/takbis-analiz.git
+cd takbis-analiz
+
+# Gerekli kütüphaneleri yükleyin
+pip install -r requirements.txt
+
+# Uygulamayı çalıştırın
+python takproson.py
+```
+
+## Kullanım
+
+1. **Takbisleri Seç** butonuyla tapu belgelerini (PDF) seçin
+2. **İçeri Aktar** butonuyla belgeleri işleyin
+3. İşlenen tapu kayıtları sol panelde görüntülenir
+4. **Tekli Raporla** veya **Çoklu Raporla** butonlarıyla raporlar oluşturun
+5. Raporları metin (.txt) olarak kaydedin veya **Hisse Tablosu** butonuyla Excel formatında dışa aktarın
+
+## Modüller
+
+- `takproson.py` - Ana uygulama ve arayüz
+- `basliklar.py` - Takbis başlıklarını analiz eder
+- `ipotek_extractor.py` - İpotek bilgilerini çıkarır
+- `takbis_inceleme.py` - Tek taşınmaz inceleme
+- `takbisler_inceleme.py` - Çoklu taşınmaz inceleme
+- `takbisduzenle.py` - Veri düzenleme işlemleri
+
+## Katkıda Bulunma
+
+1. Bu projeyi fork edin
+2. Kendi feature branch'inizi oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`)
+4. Branch'inize push edin (`git push origin feature/AmazingFeature`)
+5. Pull Request oluşturun
+
+## Lisans
+
+Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır.
+
+## İletişim
+
+Ahmet Nazif UFUK - anufuk@gmail.com 
+
+Proje Linki: [https://github.com/kullaniciadi/takbis-analiz](https://github.com/kullaniciadi/takbis-analiz)
+
+--------------------
+--------------------
 Takbis Belgeleri İşleme / Analiz / Raporlama Uygulaması Kullanıcı Dokümantasyonu
 
  
