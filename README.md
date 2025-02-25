@@ -26,7 +26,7 @@ Bu yazılım, tapu kayıt belgelerini (Takbis) otomatik olarak analiz eden, veri
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/kullaniciadi/takbis-analiz.git
+git clone https://github.com/quleman/takbis.git
 cd takbis-analiz
 
 # Gerekli kütüphaneleri yükleyin
