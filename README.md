@@ -69,10 +69,9 @@ Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır.
 
 Ahmet Nazif UFUK - anufuk@gmail.com 
 
-Proje Linki: [https://github.com/kullaniciadi/takbis-analiz](https://github.com/kullaniciadi/takbis-analiz)
+Proje Linki: [https://github.com/kullaniciadi/takbis-analiz](https://github.com/quleman/takbis.git)
 
---------------------
---------------------
+--------------------  =  --------------------
 Takbis Belgeleri İşleme / Analiz / Raporlama Uygulaması Kullanıcı Dokümantasyonu
 
  
